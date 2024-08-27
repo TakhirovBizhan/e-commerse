@@ -1,0 +1,45 @@
+@import './Roboto/fonts';
+
+html, body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+pre {
+  margin: 0;
+}
+
+:root {
+  --color-brand: #518581;
+  --brand-hover: #86AAA7;
+  --color-primary: #000000;
+  --color-secondary: #AFADB5;
+  --color-accent: #518581;
+  --space-xl: 24px;
+  --space-l: 20px;
+  --space-m: 16px;
+  --space-s: 14px;
+  --space-xs: 12px;
+  --space-xxs: 8px;
+}
+
+
+ul {
+  list-style-type:  none;
+  margin: 0;
+  padding: 0;
+}

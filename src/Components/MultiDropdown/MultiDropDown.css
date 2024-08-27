@@ -1,0 +1,32 @@
+.multi-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxs);
+}
+
+.multi-dropdown_list {
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px #00000040;
+
+}
+
+.multi-dropdown_item{
+    padding: var(--space-s) var(--space-xs);
+}
+
+.multi-dropdown_item_selected {
+    color: var(--color-accent) !important;
+}
+
+.multi-dropdown_item {
+    background-color: inherit;
+    color: var(--color-primary);
+}
+
+.multi-dropdown_item:hover {
+    background-color: inherit;
+}
+
+.multi-dropdown_item:active {
+    background-color: inherit;
+}
