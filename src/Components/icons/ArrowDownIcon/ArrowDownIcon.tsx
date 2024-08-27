@@ -1,7 +1,8 @@
 import * as React from 'react'
 import { IconProps } from '../Icon';
 import '../../../styles/styles.css';
-import '../Icon/Icon.css'
+import '../Icon/Icon.css';
+import cn from 'classnames'
 
 
 const ArrowDownIcon: React.FC<IconProps> = ({className, color, width = 24, height = 24}) => {
@@ -15,7 +16,7 @@ const ArrowDownIcon: React.FC<IconProps> = ({className, color, width = 24, heigh
     
     return (
             <svg
-                className={className}
+                className={className()}
                 width={width}
                 height={height}
                 viewBox='0 0 24 24'
