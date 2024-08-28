@@ -11,7 +11,7 @@ export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 
-const Button: React.FC<ButtonProps> = ({ loading=false, children = 'send', disabled=false, ...props}) => {
+const Button: React.FC<ButtonProps> = ({ loading=false, children = 'send', ...props}) => {
 
   const [isLoading, setIsLoading] = useState(loading)
 
