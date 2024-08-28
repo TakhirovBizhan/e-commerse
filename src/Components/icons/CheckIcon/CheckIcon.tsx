@@ -1,5 +1,6 @@
 import React from 'react';
 import { IconProps } from '../Icon';
+import cn from 'classnames'
 
 const CheckIcon: React.FC<IconProps> = ({ className, color, width = 24, height = 24 }) => {
 
@@ -10,7 +11,7 @@ const CheckIcon: React.FC<IconProps> = ({ className, color, width = 24, height =
 
   return (
     <svg
-      className={className}
+      className={cn(className, 'icon')}
       width={width}
       height={height}
       style={styles}
