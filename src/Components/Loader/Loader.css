@@ -9,7 +9,7 @@
 
 .loader {
     fill: #518581;
-    /*animation: spin 1s infinite linear; */
+    animation: spin 1s infinite linear; 
 }
 
 .loader-size-l {
