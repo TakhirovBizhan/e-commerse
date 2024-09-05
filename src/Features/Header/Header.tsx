@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Text from '../Text';
+import Text from '../../Components/Text';
 import styles from './Header.module.css';
 
 

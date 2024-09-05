@@ -11,20 +11,3 @@
     text-align: center;
 }
 
-.search__block {
-    display: flex;
-    gap: var(--space-xl);
-}
-
-.search__block__item {
-    width: 100%;
-}
-
-.search__item__multidropdown {
-    max-width: 300px;
-    margin-top: 24px;
-}
-
-.search__block__button {
-    width: 137px;
-}
