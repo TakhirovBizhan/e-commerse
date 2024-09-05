@@ -1,0 +1,9 @@
+.container {
+    margin-top: 48px;
+}
+
+.count__block {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}

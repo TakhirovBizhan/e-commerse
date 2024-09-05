@@ -1,4 +1,5 @@
 import Text from "../../Components/Text";
+import Product_list from "../../Features/Product_list";
 import Search from "../../Features/Search/Search";
 import styles from './Home.module.css';
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
           to see our old products please enter the name of the item</Text>
       </div>
       <Search />
+      <Product_list />
     </div>
   )
 }
