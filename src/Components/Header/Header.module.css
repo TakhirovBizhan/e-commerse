@@ -1,4 +1,7 @@
 
+.header {
+    border-bottom: 2px solid #F3F3F3;
+}
 
 .header__container {
     display: flex;

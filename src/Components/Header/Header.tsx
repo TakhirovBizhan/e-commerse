@@ -1,11 +1,11 @@
-
+import { Link } from 'react-router-dom';
 import Text from '../Text';
 import styles from './Header.module.css';
 
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className={styles.header__container}>
         <div>
           <svg width="131" height="42" viewBox="0 0 131 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,9 +31,9 @@ const Header = () => {
         </div>
         <div >
           <nav className={styles.nav}>
-          <Text view='p-18' color='primary'>smth</Text>
-          <Text view='p-18' color='primary'>smth</Text>
-          <Text view='p-18' color='primary'>smth</Text>
+          <Link to="/main"><Text view='p-18' color='primary'>Product</Text></Link>
+          <Link to="/categories"><Text view='p-18' color='primary'>Categories</Text></Link>
+          <Link to="/about_us"><Text view='p-18' color='primary'>About us</Text></Link>
           </nav>
         </div>
         <div className={ styles.profile_backet_container}>
