@@ -5,7 +5,6 @@ import MultiDropdown from '../../Components/MultiDropdown';
 
 export const Search = () => {
   return (
-    <div>
     <div className={styles.search__container}>
       <div className={styles.search__block}>
         <Input value="" onChange={() => ''} placeholder="Seacrh product" className={styles.search__block__item}></Input>
@@ -21,7 +20,6 @@ export const Search = () => {
         getTitle={() => ''}
         className={styles.search__item__multidropdown} />
     </div>
-  </div>
   )
 }
 
