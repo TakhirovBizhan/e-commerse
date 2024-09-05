@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <div >
           <nav className={styles.nav}>
-          <Link to="/main"><Text view='p-18' color='primary'>Product</Text></Link>
+          <Link to="/"><Text view='p-18' color='primary'>Product</Text></Link>
           <Link to="/categories"><Text view='p-18' color='primary'>Categories</Text></Link>
           <Link to="/about_us"><Text view='p-18' color='primary'>About us</Text></Link>
           </nav>
