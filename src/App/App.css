@@ -1,0 +1,12 @@
+main {
+    padding: 0 100px 0 100px;
+    margin-top: 98px;
+}
+
+header {
+    background-color: var(--screen-color);
+}
+
+body {
+    background-color:var(--background-color);
+}
