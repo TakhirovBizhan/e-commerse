@@ -1,12 +1,30 @@
-.main__container {
+.text__container {
     display: flex;
     flex-direction: column;
-    gap: var(--space--xl);
+    gap: var(--space-xl);
     margin: auto;
     max-width: 653px;
     align-items: center;
 }
 
-.main__container__text {
+.text__item {
     text-align: center;
+}
+
+.search__block {
+    display: flex;
+    gap: var(--space-xl);
+}
+
+.search__block__item {
+    width: 100%;
+}
+
+.search__item__multidropdown {
+    max-width: 300px;
+    margin-top: 24px;
+}
+
+.search__block__button {
+    width: 137px;
 }
