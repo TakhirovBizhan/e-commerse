@@ -5,7 +5,7 @@ export const Product_list = () => {
   return (
     <div className={styles.container}>
         <div className={styles.count__block}>
-            <Text view='title' color='primary'>Total Product:</Text>
+            <Text view='title' color='primary' className={styles.count__text}>Total Product:</Text>
             <Text view='p-20' color='accent'>48</Text>
         </div>
     </div>
